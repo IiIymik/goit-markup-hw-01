@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- Шапка -->
-    <header>
+    <header class="header">
       <nav>
         <!-- Логотип -->
         <div><a href="http://127.0.0.1:5500/index.html">WebStudio</a></div>
@@ -32,7 +33,21 @@
       <!-- Особенности -->
       <section>
         <!-- Скрытый заголовок -->
-        <h2 hidden>Особенности</h2>
+        <!-- добавить в ксс  
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} -->
+        <h2 class="visually-hidden">Особенности</h2>
         <ul>
           <li>
             <h3>Внимание к деталям</h3>
